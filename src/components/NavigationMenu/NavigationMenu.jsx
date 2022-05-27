@@ -23,17 +23,15 @@ export default class NavigationMenu extends Component{
         >
           <div className="line"></div>
         </div>
-        {isMenuOpen && (
-          <nav className="links">
-            <ul>
-              <li><Link to="/" className="link">Home</Link></li>
-              <li><Link to="/about" className="link">About</Link></li>
-              <li><Link to="/skills" className="link">Skills</Link></li>
-              <li><Link to="/projects" className="link">Projects</Link></li>
-              <li><Link to="/contact" className="link">Contact</Link></li>
-            </ul>
-          </nav>
-        )}
+        <nav className={isMenuOpen ? "links active" : "links"}>
+          <ul>
+            <li><Link to="/" className="link">Home</Link></li>
+            <li><Link to="/about" className="link">About</Link></li>
+            <li><Link to="/skills" className="link">Skills</Link></li>
+            <li><Link to="/projects" className="link">Projects</Link></li>
+            <li><Link to="/contact" className="link">Contact</Link></li>
+          </ul>
+        </nav>
       </section>
     );
   }
