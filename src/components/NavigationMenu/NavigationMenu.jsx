@@ -18,6 +18,7 @@ export default class NavigationMenu extends Component{
     return (
       <section className={ isMenuOpen ? "icon iconActive" : "icon"} onClick={ this.toggleMenu}>
           <div className="hamburguer"></div>
+          
           <div className={ isMenuOpen ? "menu menu-open" : "menu menu-closed" }>
             {isMenuOpen && (
               <nav className="links">

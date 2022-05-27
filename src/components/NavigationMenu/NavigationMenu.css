@@ -5,12 +5,13 @@
   width: fit-content;
   height: 44px;
   cursor: pointer;
+  margin-right: 20px;
 }
 
 .hamburguer {
   top: 50%;
   right: 10%;
-  width: 30px;
+  width: 37px;
   height: 6px;
   background-color: white;
   position: absolute;
@@ -38,8 +39,6 @@
 }
 
 .links {
-  display: flex;
-  flex-direction: column;
   right: 1%;
   padding: 45px 0 0;
   flex-wrap: nowrap;
@@ -47,12 +46,16 @@
 }
 
 .links ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 0;
   list-style: none;
+  width: 100%;
 }
 
 .links ul li {
-  margin: 2px 8px;
+  padding: 8px;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -73,22 +76,23 @@
 .icon.iconActive .hamburguer::after {
   top: 0;
   transform: rotate(225deg);
+  background: rgb(225, 25, 25);
 }
 
 .icon.iconActive .hamburguer::before {
   top: 0;
   transform: rotate(135deg);
+  background: rgb(225, 25, 25);
 }
 
 .menu.menu-open {
-  width: 150px;
-  height: 100vh;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 360px;
   transition: 0.5s;
+  width: 180px;
 }
 
 .menu.menu-close {
   display: none;
   width: 0;
-  transition: 0.5s;
 }
