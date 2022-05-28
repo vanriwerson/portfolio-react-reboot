@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../components/shared/Footer/Footer";
 import Header from "../components/shared/Header/Header";
 
 export default class Projects extends Component{
@@ -6,6 +7,7 @@ export default class Projects extends Component{
     return(
       <section>
         <Header />
+        <Footer />
       </section>
     );
   }

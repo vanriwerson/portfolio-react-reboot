@@ -1,0 +1,33 @@
+.footer {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+}
+
+.socials {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.socials a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  transform: scale(1.1);
+  text-shadow: 1px 1px 3px #fff;
+}
+
+.footer p {
+  flex-grow: 2;
+  margin: 0 auto;
+  text-align: center;
+}

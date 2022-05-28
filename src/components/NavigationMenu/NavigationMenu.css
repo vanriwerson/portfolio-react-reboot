@@ -1,6 +1,5 @@
 .toggle-container {
   align-items: flex-end;
-  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
   height: fit-content;
@@ -13,7 +12,7 @@
 
 /* CONTROLANDO A APARÊNCIA DO BOTÃO */
 .toggle-button {
-  background-color: rgb(0, 0, 0,);
+  background-color: rgb(0, 0, 0);
   border: 1px solid rgb(255, 255, 255);
   border-radius: 6px;
   cursor: pointer;
@@ -81,8 +80,12 @@
 
 /* CONTROLANDO A APARÊNCIA DO MENU */
 .links {
-  height: 0;
   animation: slideUp 0.4s;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+  height: 0;
+  margin-top: 23px;
+  width: 100%;
 }
 
 .links ul {
@@ -107,7 +110,6 @@
   display: flex;
   height: 360px;
   justify-content: center;
-  width: 100%;
 }
 
 .links.active ul li {
