@@ -23,11 +23,18 @@
 
 .socials a:hover {
   transform: scale(1.1);
-  text-shadow: 1px 1px 3px #fff;
+  text-shadow: 1px 1px 5px #fff;
 }
 
 .footer p {
   flex-grow: 2;
   margin: 0 auto;
   text-align: center;
+}
+
+.footer img {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 36px;
 }
