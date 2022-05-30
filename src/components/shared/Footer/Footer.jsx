@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <footer className="footer">
         <section className="socials">
-          <h4>Find me at:</h4>
+          <h4>Follow me at:</h4>
           <a
             href="https://github.com/vanriwerson"
             target="_blank"
@@ -28,7 +28,9 @@ export default class Footer extends Component {
             />
           </a>
         </section>
-        <p>{'<dev> Bruno Riwerson Silva </dev>'}</p>
+        <section className="signature">
+          <p>{'<dev> Bruno Riwerson Silva </dev>'}</p>
+        </section>
       </footer>
     );
   }
