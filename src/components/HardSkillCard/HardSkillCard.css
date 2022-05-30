@@ -15,8 +15,8 @@
   flex-direction: column;
   height: 440px;
   justify-content: space-evenly;
-  margin: 20px;
-  width: 360px;
+  margin: 20px auto;
+  width: 340px;
 }
 
 .hard-skill-card img {
