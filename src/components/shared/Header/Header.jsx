@@ -7,7 +7,8 @@ export default class Header extends Component {
     return (
       <header className="header">
         <section className="logo">
-          BR - DevWeb
+          <span className="logo-main">BRS</span>
+          <span className="logo-sub">DevWeb</span>
         </section>
         <NavigationMenu />
       </header>

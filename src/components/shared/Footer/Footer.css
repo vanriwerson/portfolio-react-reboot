@@ -1,12 +1,10 @@
 .footer {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
-  bottom: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 8px;
-  position: fixed;
   width: 100vw;
 }
 
@@ -24,9 +22,9 @@
 
 .socials a {
   border-radius: 6px;
+  box-shadow: 2px 2px 3px rgba(20,75,20,0.5);
   color: inherit;
   margin: 0 20px;
-  text-decoration: none;
 }
 
 .socials a:hover {
@@ -50,4 +48,5 @@
 
 .signature p {
   font-size: 1.1em;
+  text-shadow: 2px 2px 3px rgb(53, 182, 53);
 }

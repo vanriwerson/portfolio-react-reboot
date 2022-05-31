@@ -1,19 +1,27 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './HardSkillCard.css'
 
 export default class HardSkillCard extends Component {
   render() {
+    const { imgUrl, techName, techDescription } = this.props;
     return (
       <section className="hard-skill-card">
         <img
-          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-          alt="React icon"
+          src={ imgUrl }
+          alt={ `Ícone da tecnologia ${techName}` }
         />
         <div className="hard-skill-info">
-          <h2>React JS</h2>
-          <p>React JS é uma biblioteca JavaScript para a criação de interfaces de usuário — ou UI (user interface)</p>
+          <h2>{ techName }</h2>
+          <p>{ techDescription }</p>
         </div>
       </section>
     );
   }
 }
+
+HardSkillCard.propTypes = {
+  imgUrl: PropTypes.string.isRequired,
+  techName: PropTypes.string.isRequired,
+  techDescription: PropTypes.string.isRequired,
+};

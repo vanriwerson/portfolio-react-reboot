@@ -20,6 +20,7 @@
   position: relative;
   transition: 0.7s;
   width: 50px;
+  z-index: 100;
 }
 
 .line {
