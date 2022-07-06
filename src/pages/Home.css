@@ -1,0 +1,19 @@
+.home {
+  width: 100vw;
+}
+
+.content {
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: center;
+  margin: 20px;
+}
+
+.home .footer {
+  bottom: 0;
+  position: fixed;
+}
