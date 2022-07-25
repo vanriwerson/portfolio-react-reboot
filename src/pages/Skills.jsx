@@ -7,7 +7,6 @@ import './Skills.css'
 
 export default class Skills extends Component{
   render () {
-    console.log(hardSkillsList);
     return(
       <section className="skills">
         <Header />

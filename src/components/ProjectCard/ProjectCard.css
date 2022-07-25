@@ -1,0 +1,39 @@
+.project-card {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px rgb(53, 182, 53);
+  margin: 16px auto;
+  padding: 24px 0;
+  text-align: center;
+  width: 360px;
+}
+
+.project-card a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project-card img {
+  border-radius: 8px;
+  width: 280px;
+}
+
+.project-info {
+  padding: 0 20px;
+}
+
+.project-info h2 {
+  background-color: rgba(233, 215, 135, 0.5);
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 12px auto;
+  padding: 8px 12px;
+  text-align: center;
+  width: 80%;
+}
+
+.project-info p {
+  margin: 12px auto;
+  text-align: justify;
+  width: 80%;
+}
