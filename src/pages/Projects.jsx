@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import Footer from "../components/shared/Footer/Footer";
 import Header from "../components/shared/Header/Header";
+import ProjectCard from '../components/ProjectCard/ProjectCard';
+import './Projects.css';
 
 export default class Projects extends Component{
   render () {
     return(
-      <section>
+      <section className="projects">
         <Header />
+        <h1>Conheça alguns de meus Projetos</h1>
+        <ProjectCard />
         <Footer />
       </section>
     );
