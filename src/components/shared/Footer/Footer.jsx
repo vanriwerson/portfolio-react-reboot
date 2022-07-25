@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import githubIcon from '../../../images/socials/github.png';
+import linkedinIcon from '../../../images/socials/linkedin.png';
 import './Footer.css';
 
 export default class Footer extends Component {  
@@ -13,7 +15,7 @@ export default class Footer extends Component {
             rel="noreferrer"
           >
             <img
-              src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/2x/external-github-community-for-software-building-and-testing-online-logo-bold-tal-revivo.png"
+              src={ githubIcon }
               alt="Github icon"
             />
           </a>
@@ -23,7 +25,7 @@ export default class Footer extends Component {
             rel="noreferrer"
           >
             <img
-              src="https://img.icons8.com/android/2x/linkedin.png"
+              src={ linkedinIcon }
               alt="Linkedin icon"
             />
           </a>
