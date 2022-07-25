@@ -1,11 +1,12 @@
+import lagostaBoxeadora from '../images/projects/stomatopoda.png';
 import vanrTimer from '../images/projects/vanr-timer.png';
 import vanrCalc from '../images/projects/vanr-calc.png';
 
 const projectsList = [
   {
     id: 'proj02',
-    imgUrl: vanrTimer,
-    linkToProject: '/',
+    imgUrl: lagostaBoxeadora,
+    linkToProject: 'https://vanr-stomatopoda.netlify.app/',
     projectName: 'Lagosta Boxeadora',
     projectDescription: 'Primeiro compilado de informações feito por mim. Site simples desenvolvido somente com HTML e CSS, seguindo o pensamento "mobile first".',
   },
