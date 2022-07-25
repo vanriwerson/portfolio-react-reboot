@@ -11,9 +11,30 @@
   height: fit-content;
   justify-content: center;
   margin: 20px;
+  text-align: center;
 }
 
-.home .footer {
-  bottom: 0;
-  position: fixed;
+.content h1 {
+  width: 100%;
+}
+
+.content img {
+  margin: 12px auto;
+}
+
+.cta-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  text-align: justify;
+  width: 100%;
+}
+
+@media (min-width: 840px) {
+  .home .footer {
+    bottom: 0;
+    position: fixed;
+  }
 }
