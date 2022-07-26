@@ -1,0 +1,46 @@
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.contact-card {
+  backdrop-filter: blur( 2px );
+  background: linear-gradient(
+    130deg,
+    rgba(0, 0, 0, 0.5) 5%,
+    rgba(20,75,20,0.5) 30%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(20,75,20,0.5) 70%,
+    rgba(0,0,0,0.5) 95%
+  );
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px rgba(24, 151, 24, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: space-evenly;
+  margin: 16px;
+  max-width: 480px;
+  padding: 20px 20px 40px 20px;
+  text-align: center;
+}
+
+.contact-card a {
+  background-color: #fff;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  height: fit-content;
+  padding: 16px;
+  text-decoration: none;
+  width: 80px;
+}
+
+.contact-card p {
+  margin: 16px 0 0 0;
+}

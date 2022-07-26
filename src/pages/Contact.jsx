@@ -4,13 +4,14 @@ import linkedinIcon from '../images/socials/linkedin.png';
 import whatsApp from '../images/whatsapp.png';
 import Footer from "../components/shared/Footer/Footer";
 import Header from "../components/shared/Header/Header";
+import './Contact.css';
 
 export default class Contact extends Component{
   render () {
     return(
       <section className="contact">
         <Header />
-        <div className="socials">
+        <div className="contact-card">
           <h1>Acompanhe minha trajetória e evolução profissional</h1>
           <a
             href="https://github.com/vanriwerson"
@@ -35,7 +36,7 @@ export default class Contact extends Component{
             <p>Linkedin</p>
           </a>
         </div>
-        <div className="direct">
+        <div className="contact-card">
           <h1>Fale comigo! Posso transformar sua ideia em código!</h1>
           <a
             href="https://api.whatsapp.com/send?phone=+55019991550438"
