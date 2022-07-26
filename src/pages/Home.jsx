@@ -9,7 +9,7 @@ export default class Home extends Component{
   state = {
     skillList: ['HTML', 'CSS', 'Javascript', 'Jest', 'ReactJS', 'Redux', 'React Testing Library',
       'Context API', 'VueJS with Vuetify', 'Git & Github', 'Linux'],
-    whatsappContact: '+55019991550438',
+    whatsappContact: '55019991550438',
   }
 
   render () {

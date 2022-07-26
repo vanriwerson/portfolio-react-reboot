@@ -39,7 +39,7 @@ export default class Contact extends Component{
         <div className="contact-card">
           <h1>Fale comigo! Posso transformar sua ideia em código!</h1>
           <a
-            href="https://api.whatsapp.com/send?phone=+55019991550438"
+            href="https://api.whatsapp.com/send?phone=55019991550438"
             target="_blank"
             rel="noreferrer"
           >
