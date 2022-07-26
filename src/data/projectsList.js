@@ -1,6 +1,7 @@
 import lagostaBoxeadora from '../images/projects/stomatopoda.png';
 import vanrTimer from '../images/projects/vanr-timer.png';
 import vanrCalc from '../images/projects/vanr-calc.png';
+import portfolio from '../images/projects/portfolio.png';
 
 const projectsList = [
   {
@@ -23,6 +24,13 @@ const projectsList = [
     linkToProject: 'https://vanr-calculators.netlify.app/',
     projectName: 'Calculadoras',
     projectDescription: 'Prática de lógica de programação e ferramentas de desenvolvimento frontend aprendidas.',
+  },
+  {
+    id: 'proj04',
+    imgUrl: portfolio,
+    linkToProject: 'https://vanr-calculators.netlify.app/',
+    projectName: 'Meu portfólio',
+    projectDescription: 'Review completo do primeiro portfólio que criei, refatorado para ReactJS.',
   },
 ];
 
