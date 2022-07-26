@@ -4,7 +4,7 @@ import './HardSkillCard.css'
 
 export default class HardSkillCard extends Component {
   render() {
-    const { imgUrl, techName, techDescription } = this.props;
+    const { imgUrl, techName, techDescription, moreAbout } = this.props;
     return (
       <section className="hard-skill-card">
         <img
@@ -14,6 +14,15 @@ export default class HardSkillCard extends Component {
         <div className="hard-skill-info">
           <h2>{ techName }</h2>
           <p>{ techDescription }</p>
+          {moreAbout !== '' && (
+            <a
+              href={ moreAbout }
+              target="_blank"
+              rel="noreferrer"
+            >
+              Quer saber mais?
+            </a>
+          )}
         </div>
       </section>
     );

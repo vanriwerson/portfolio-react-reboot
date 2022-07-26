@@ -11,12 +11,13 @@ export default class Skills extends Component{
       <section className="skills">
         <Header />
         <div className="hard-skills-container">
-          {hardSkillsList.map(({ id, imgUrl, techName, techDescription }) => (
+          {hardSkillsList.map(({ id, imgUrl, techName, techDescription, moreAbout }) => (
             <HardSkillCard
               key={ id }
               imgUrl={ imgUrl }
               techName={ techName }
               techDescription={ techDescription }
+              moreAbout={ moreAbout }
             />
           ))}
         </div>

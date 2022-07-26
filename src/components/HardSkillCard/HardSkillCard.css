@@ -51,3 +51,18 @@
   padding: 8px 12px;
   text-align: justify;
 }
+
+.hard-skill-info a {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: var(--green-spring);
+  font-weight: 600;
+  margin-top: 4px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.hard-skill-info a:hover {
+  background-color: rgba(233, 215, 135, 0.5);
+  color: rgba(0, 0, 0, 0.9);
+}
