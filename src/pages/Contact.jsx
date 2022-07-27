@@ -11,44 +11,46 @@ export default class Contact extends Component{
     return(
       <section className="contact">
         <Header />
-        <div className="contact-card">
-          <h1>Acompanhe minha trajetória e evolução profissional</h1>
-          <a
-            href="https://github.com/vanriwerson"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={ githubIcon }
-              alt="Github icon"
-            />
-            <p>Github</p>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/bruno-riwerson/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={ linkedinIcon }
-              alt="Linkedin icon"
-            />
-            <p>Linkedin</p>
-          </a>
-        </div>
-        <div className="contact-card">
-          <h1>Fale comigo! Posso transformar sua ideia em código!</h1>
-          <a
-            href="https://api.whatsapp.com/send?phone=55019991550438"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={ whatsApp }
-              alt="Whatsapp icon"
-            />
-            <p>Whatsapp</p>
-          </a>
+        <div className="card-wrapper">
+          <div className="contact-card">
+            <h1>Acompanhe minha trajetória e evolução profissional</h1>
+            <a
+              href="https://github.com/vanriwerson"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={ githubIcon }
+                alt="Github icon"
+              />
+              <p>Github</p>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/bruno-riwerson/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={ linkedinIcon }
+                alt="Linkedin icon"
+              />
+              <p>Linkedin</p>
+            </a>
+          </div>
+          <div className="contact-card">
+            <h1>Fale comigo! Posso transformar sua ideia em código!</h1>
+            <a
+              href="https://api.whatsapp.com/send?phone=55019991550438"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={ whatsApp }
+                alt="Whatsapp icon"
+              />
+              <p>Whatsapp</p>
+            </a>
+          </div>
         </div>
         <Footer />
       </section>

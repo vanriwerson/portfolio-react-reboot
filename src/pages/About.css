@@ -1,9 +1,5 @@
 .about {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
   height: 100vh;
-  justify-content: space-between;
   width: 100%;
 }
 
@@ -15,10 +11,9 @@
   box-shadow: 1px 1px 2px rgb(53, 182, 53);
   display: flex;
   flex-direction: column;
-  margin: 16px;
+  margin: 16px auto;
   max-width: 800px;
   padding: 20px;
-  width: 100%;
 }
 
 .about-content h1 {
