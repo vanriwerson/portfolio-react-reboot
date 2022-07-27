@@ -63,7 +63,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 16px 0 0 0;
   }
 
   .home-skill-list img {
