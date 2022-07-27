@@ -29,7 +29,7 @@ const hardSkillsList = [
     id: 'tech03',
     imgUrl: javascript,
     techName: 'Javascript',
-    techDescription: 'É uma linguegem de programação através da qual podemos criar conteúdo dinâmico e/ou interações com o usuário.',
+    techDescription: 'É uma linguagem de programação através da qual podemos criar conteúdo dinâmico e/ou interações com o usuário.',
     moreAbout: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript',
   },
   {
@@ -71,7 +71,7 @@ const hardSkillsList = [
     id: 'tech09',
     imgUrl: java,
     techName: 'JAVA',
-    techDescription: 'Java é uma linguagem de  orientada a objetos e ambiente computacional multiplataforma.',
+    techDescription: 'Java é uma linguagem de programação orientada a objetos e ambiente computacional multiplataforma.',
     moreAbout: 'https://docs.oracle.com/en/java/',
   },
   {

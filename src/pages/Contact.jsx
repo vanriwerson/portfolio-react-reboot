@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import githubIcon from '../images/socials/github.png';
 import linkedinIcon from '../images/socials/linkedin.png';
 import whatsApp from '../images/whatsapp.png';
+import mail from '../images/mail.png'
 import Footer from "../components/shared/Footer/Footer";
 import Header from "../components/shared/Header/Header";
 import './Contact.css';
@@ -49,6 +50,17 @@ export default class Contact extends Component{
                 alt="Whatsapp icon"
               />
               <p>Whatsapp</p>
+            </a>
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={ mail }
+                alt="E-mail icon"
+              />
+              <p>riwerson@gmail.com</p>
             </a>
           </div>
         </div>
