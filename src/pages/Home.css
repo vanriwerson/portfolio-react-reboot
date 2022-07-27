@@ -42,9 +42,9 @@
 }
 
 .direct-msg {
-  animation: blink 5s linear infinite;
+  animation: blink 3.5s linear infinite;
   border-radius: 6px;
-  color: var(--outer-space);
+  color: var(--geyser);
   font-size: 1.2em;
   font-weight: bolder;
   margin: 6px;
@@ -89,15 +89,14 @@
 
 @keyframes blink {
   0% {
-    opacity: 0;
     background-color: var(--outer-space);
   }
   20% {
-    opacity: 0.5;
     background-color: var(--mineral-green);
+    color: var(--outer-space);
   }
   60% {
-    opacity: 1;
     background-color: var(--green-spring);
+    color: var(--outer-space);
   }
 }

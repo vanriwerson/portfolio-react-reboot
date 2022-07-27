@@ -1,5 +1,6 @@
 .project-card {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
   border-radius: 8px;
   box-shadow: 1px 1px 2px rgb(53, 182, 53);
   margin: 16px auto;
