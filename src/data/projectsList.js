@@ -1,6 +1,7 @@
 import lagostaBoxeadora from '../images/projects/stomatopoda.png';
 import vanrTimer from '../images/projects/vanr-timer.png';
 import vanrCalc from '../images/projects/vanr-calc.png';
+import wallet from '../images/projects/wallet.png';
 import portfolio from '../images/projects/portfolio.png';
 
 const projectsList = [
@@ -27,6 +28,13 @@ const projectsList = [
   },
   {
     id: 'proj04',
+    imgUrl: wallet,
+    linkToProject: 'https://vanr-wallet.netlify.app/',
+    projectName: 'VanR Wallet',
+    projectDescription: 'Tabela de controle de despesas com conversão de moedas utilizando Redux.',
+  },
+  {
+    id: 'proj05',
     imgUrl: portfolio,
     linkToProject: 'https://vanr-calculators.netlify.app/',
     projectName: 'Meu portfólio',
