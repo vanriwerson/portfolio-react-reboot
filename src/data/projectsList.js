@@ -6,7 +6,7 @@ import portfolio from '../images/projects/portfolio.png';
 
 const projectsList = [
   {
-    id: 'proj02',
+    id: 'proj01',
     imgUrl: lagostaBoxeadora,
     linkToProject: 'https://vanr-stomatopoda.netlify.app/',
     projectName: 'Lagosta Boxeadora',
