@@ -2,6 +2,7 @@ import lagostaBoxeadora from '../images/projects/stomatopoda.png';
 import vanrTimer from '../images/projects/vanr-timer.png';
 import vanrCalc from '../images/projects/vanr-calc.png';
 import wallet from '../images/projects/wallet.png';
+import movies from '../images/projects/movies.png';
 import portfolio from '../images/projects/portfolio.png';
 
 const projectsList = [
@@ -35,6 +36,13 @@ const projectsList = [
   },
   {
     id: 'proj05',
+    imgUrl: movies,
+    linkToProject: 'https://bruno-riwerson-dsmovie.netlify.app/',
+    projectName: 'DSMovie',
+    projectDescription: 'App desenvolvido durante a Semana Spring React da escola DevSuperior. Pude exercitar e aprimorar o uso das ferramentas React, Typescript, Java, Springboot, Heroku e integração entre Frontend, Backend e Banco de dados',
+  },
+  {
+    id: 'proj06',
     imgUrl: portfolio,
     linkToProject: 'https://vanr-calculators.netlify.app/',
     projectName: 'Meu portfólio',
