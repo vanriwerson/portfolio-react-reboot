@@ -11,17 +11,19 @@ export default class Projects extends Component{
       <section className="projects">
         <Header />
         <h1>Conheça alguns de meus Projetos</h1>
-        {
-          projectsList.map(({ id, imgUrl, linkToProject, projectName, projectDescription }) => (
-            <ProjectCard
-              key={ id }
-              imgUrl={ imgUrl }
-              linkToProject={ linkToProject }
-              projectName={ projectName }
-              projectDescription={ projectDescription }
-            />
-          ))
-        }
+        <div className="projects-wrapper">
+          {
+            projectsList.map(({ id, imgUrl, linkToProject, projectName, projectDescription }) => (
+              <ProjectCard
+                key={ id }
+                imgUrl={ imgUrl }
+                linkToProject={ linkToProject }
+                projectName={ projectName }
+                projectDescription={ projectDescription }
+              />
+            ))
+          }
+        </div>
         <Footer />
       </section>
     );

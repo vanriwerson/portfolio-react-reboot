@@ -19,6 +19,7 @@ export default class Contact extends Component{
               href="https://github.com/vanriwerson"
               target="_blank"
               rel="noreferrer"
+              className="contact-link"
             >
               <img
                 src={ githubIcon }
@@ -30,6 +31,7 @@ export default class Contact extends Component{
               href="https://www.linkedin.com/in/bruno-riwerson/"
               target="_blank"
               rel="noreferrer"
+              className="contact-link"
             >
               <img
                 src={ linkedinIcon }
@@ -44,6 +46,7 @@ export default class Contact extends Component{
               href="https://api.whatsapp.com/send?phone=55019991550438"
               target="_blank"
               rel="noreferrer"
+              className="contact-link"
             >
               <img
                 src={ whatsApp }
@@ -55,6 +58,7 @@ export default class Contact extends Component{
               href="/"
               target="_blank"
               rel="noreferrer"
+              className="contact-link"
             >
               <img
                 src={ mail }
