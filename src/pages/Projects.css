@@ -1,12 +1,22 @@
 .projects {
+  align-items: center;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
 }
 
 .projects h1 {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px 0;
   text-align: center;
+  width: 100%;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 20px auto;
   width: 100%;
 }
