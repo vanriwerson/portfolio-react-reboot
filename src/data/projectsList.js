@@ -54,7 +54,7 @@ const projectsList = [
     imgUrl: recipes,
     linkToProject: 'https://teamone-recipes-app.netlify.app/',
     projectName: 'App de Receitas',
-    projectDescription: 'Pensado como aplicativo mobile. Consome duas APIs para fornecer ao usuário receitas completas de comidas e bebidas. O estado da aplicação foi gerenciado com ContextAPI e ela possui ampla cobertura de testes.',
+    projectDescription: 'Pensado como aplicativo mobile. Consome duas APIs para fornecer ao usuário receitas completas de comidas e bebidas. O estado global da aplicação foi gerenciado com ContextAPI e ela possui ampla cobertura de testes.',
   },
 ];
 
