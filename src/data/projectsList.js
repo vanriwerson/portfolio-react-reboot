@@ -4,6 +4,7 @@ import vanrCalc from '../images/projects/vanr-calc.png';
 import wallet from '../images/projects/wallet.png';
 import movies from '../images/projects/movies.png';
 import portfolio from '../images/projects/portfolio.png';
+import recipes from '../images/projects/recipes.png';
 
 const projectsList = [
   {
@@ -47,6 +48,13 @@ const projectsList = [
     linkToProject: 'https://vanr-calculators.netlify.app/',
     projectName: 'Meu portfólio',
     projectDescription: 'Review completo do primeiro portfólio que criei, refatorado para ReactJS.',
+  },
+  {
+    id: 'proj07',
+    imgUrl: recipes,
+    linkToProject: 'https://teamone-recipes-app.netlify.app/',
+    projectName: 'App de Receitas',
+    projectDescription: 'Pensado como aplicativo mobile. Consome duas APIs para fornecer ao usuário receitas completas de comidas e bebidas. O estado da aplicação foi gerenciado com ContextAPI e ela possui ampla cobertura de testes.',
   },
 ];
 
