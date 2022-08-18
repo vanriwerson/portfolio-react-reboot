@@ -10,6 +10,7 @@ import typescript from "../images/skills/typescript.svg";
 import java from "../images/skills/java.svg";
 import git from "../images/skills/git.svg";
 import linux from "../images/skills/linux.svg";
+import docker from "../images/skills/docker.png";
 import mysql from "../images/skills/mysql.png";
 
 const hardSkillsList = [
@@ -106,6 +107,14 @@ const hardSkillsList = [
     techDescription:
       "O Linux é um sistema operacional open source baseado em Unix criado para desktops, mas que também é usado em servidores, smartphones, tablets e outros tipos de dispositivos.",
     moreAbout: "",
+  },
+  {
+    id: "tech13",
+    imgUrl: docker,
+    techName: "Docker",
+    techDescription:
+      "É uma ferramenta capaz de virtualizar aplicações em contêineres Linux.",
+    moreAbout: "https://docs.docker.com/",
   },
   {
     id: "tech14",
