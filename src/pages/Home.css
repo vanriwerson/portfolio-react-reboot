@@ -1,6 +1,7 @@
 .home {
   display: flex;
   flex-wrap: wrap;
+  height: 100vh;
   justify-content: center;
   width: 100vw;
 }
@@ -79,11 +80,6 @@
     font-size: 1.1rem;
     line-height: 28px;
     text-align: left;
-  }
-  
-  .home .footer {
-    bottom: 0;
-    position: fixed;
   }
 }
 
